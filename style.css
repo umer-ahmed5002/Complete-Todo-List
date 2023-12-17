@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+
+.big_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+
+}
+
+#taskContainer{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px grey;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(130, 130, 226) ;
+}
+
+#cansleContainer{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px red;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: red;
+}
+
+#completeContainer{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px green;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: green;
+}
+.box3{
+
+    margin-top: 20px;
+    gap: 20px;
+    display: flex
+    
+}
+
+.drop{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+#addTask{
+    background-color: rgb(89, 128, 194);
+    color: white;
+    border-radius: 10px;
+    width: 80px;
+    padding: 10px;
+    border: none;
+}
+.input{
+    padding: 10px;
+    border: none;
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgba(122, 158, 221, 0.534) ;
+    color: rgb(8, 0, 0);
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 30px;
+
+}
+#addTask:hover{
+    background-color: blue;
+    
+}
+
+.hadder{
+    text-align: center;
+    font-weight: 600;
+    font-size: 50px;
+    color: rgb(19, 102, 102);
+}
+
+
+/* .dropdown-menu{
+    background-color: transparent;
+    border: none;
+} */
+.flex{
+    display: flex;
+}
+/* .dropdown-toggle{
+    margin-top: -8px;
+} */
+.dropdown_button:hover{
+    background-color: blue;
+}
+.names{
+    display: flex;
+    gap: 100px;
+    margin-bottom: -20px;
+    margin-top: 30px;
+}
+.name_box{
+    font-weight: 600;
+    color: rgb(130, 130, 226);
+}
+
+.mane{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.name_box2{
+    font-weight: 600;
+    color: green;
+}
+.name_box3{
+    font-weight: 600;
+    color: rgb(215, 18, 18);
+}
